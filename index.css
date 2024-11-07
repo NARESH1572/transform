@@ -1,0 +1,68 @@
+body{
+    background:red;
+}
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation:changebg 3s linear 0.3s infinite ;
+    
+}
+@keyframes  changebg{
+    0%{
+        background-color: aquamarine;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: black;
+    }
+
+}
+img{
+    animation-duration: 4s;
+    animation-delay: 0.3s;
+    animation-timing-function: linear;
+    animation-name: img;
+    
+
+
+}
+@keyframes img{
+    0%{
+        transform: rotate(0deg) scale(0.5)skew(360deg);
+}
+100%{
+    transform: rotate(360deg)scale(3);
+}
+} */
+div{
+    width: 50px;
+    height: 50px;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+    background-color: aqua;
+
+
+}
+@keyframes bounce{
+    0%{
+        transform:translate(0vw,50vh);
+    }
+    25%{transform:translate(50vw,0vh)
+
+    } 
+    50%{
+        transform: translate(98vw,50vh);
+    }
+    75%{
+        transform: translate(50vw ,98vh);
+    }
+    100%{
+        transform: translate(0vw,50vh);
+    }
+}
